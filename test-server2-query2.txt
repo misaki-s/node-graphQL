@@ -1,0 +1,12 @@
+#query
+query getCourses($topic: String!) {
+ courses(topic: $topic) {
+  title
+  url
+ }
+}
+
+# query valiable
+{ 
+ "topic":"Node.js"
+}
